@@ -1,0 +1,65 @@
+.NavBarContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.leftContainer {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+
+}
+
+.inputTypeText {
+  padding: calc(1rem - 2px);
+  background-color: rgba(255, 255, 255, 0.881);
+  outline: 0;
+  border: 1px solid;
+  border-radius: 14px;
+  color: black;
+
+}
+
+.inputTypeText:hover {
+  opacity: 0.8;
+}
+
+.InputTypeButton {
+  padding: 8px;
+  background-color: white;
+  border: none;
+  border-radius: 11px;
+  cursor: pointer;
+}
+
+.InputTypeButton:hover {
+  opacity: 0.8;
+
+}
+
+@media (max-width:459px) {
+  .NavBarContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+}
+
+.mainSearchContainer {
+  background-color: rgba(255, 255, 255, 0.808);
+  height: 100vh;
+  overflow: scroll;
+  margin-top: 1rem;
+  border-radius: 20px;
+  color: black;
+  padding: 2rem;
+  width: 60%;
+  margin: auto;
+  font-family: monospace;
+  letter-spacing: 1px;
+  font-size: 17px;
+  font-weight: 200;
+
+}

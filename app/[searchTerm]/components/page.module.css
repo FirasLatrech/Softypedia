@@ -1,0 +1,36 @@
+.mainContainerItem {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.Link {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  font-weight: 700;
+  text-decoration: underline;
+
+}
+
+.artical {
+  margin: 1rem;
+  max-width: 32rem;
+}
+
+.UnderArtical {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.articalContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+
+.lastArtical {
+  margin: 1rem;
+  max-width: 32rem;
+}

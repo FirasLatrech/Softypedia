@@ -1,0 +1,48 @@
+.main {
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  max-width: 32rem;
+  min-height: 100vh;
+
+}
+
+.h2 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  font-weight: 700;
+
+
+
+}
+
+.button {
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 0.75rem;
+  color: #ffffff;
+  background-color: #EF4444;
+
+}
+
+.p {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+
+
+}
+
+.Link {
+  text-decoration: underline;
+
+}
+
+.mainLoading {
+  padding: 0.25rem;
+  max-width: 32rem;
+  min-height: 100vh;
+
+}
