@@ -6,7 +6,7 @@ export default function Navbar() {
   return (
     <nav className={style.NavBarContainer}>
       <h1>
-        <Link href="/">WikiSoftyLine!</Link>
+        <Link href="/">Softypedia!</Link>
       </h1>
       <Shearch />
     </nav>
